@@ -34,6 +34,7 @@ public class BasicController {
     public String hello(@RequestParam(name = "name", defaultValue = "unknown user") String name) {
         System.out.println("\"测试git\" = " + "测试git 提交第二次");
         System.out.println("\"测试git\" = " + "测试git 提交第三次");
+        System.out.println("\"测试git\" = " + "测试git hot-fix 提交第一次");
         return "Hello " + name;
     }
 
