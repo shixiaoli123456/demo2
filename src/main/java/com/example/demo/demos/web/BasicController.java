@@ -33,6 +33,7 @@ public class BasicController {
     @ResponseBody
     public String hello(@RequestParam(name = "name", defaultValue = "unknown user") String name) {
         System.out.println("\"测试git\" = " + "测试git 提交第二次");
+        System.out.println("\"测试git\" = " + "测试git 提交第三次");
         return "Hello " + name;
     }
 
