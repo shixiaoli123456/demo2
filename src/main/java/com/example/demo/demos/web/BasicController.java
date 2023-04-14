@@ -39,6 +39,8 @@ public class BasicController {
         System.out.println("\"测试git\" = " + "测试git gitHub-test 提交第f二次");
         System.out.println("\"测试git\" = " + "测试git  pullTest");
         System.out.println("\"测试git\" = " + "测试gitee  push");
+        System.out.println("\"测试git\" = " + "测试git  push");
+
         return "Hello " + name;
     }
 
